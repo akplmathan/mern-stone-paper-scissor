@@ -1,0 +1,124 @@
+.home-route{
+    display: flex;
+    background-color: rgb(196, 128, 128);
+    text-align: center;
+    height: 100vh;
+    justify-content: center;
+}
+.home-route .con{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.home-route .con .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+   
+}
+.home-route .con .container .details{
+    width: 100%;
+    display: flex;
+    padding: 40px;
+    justify-content: space-between;
+    align-items: center;
+}
+.home-route .con .container .details h4{
+    font-size: 40px;
+    color: brown;
+}
+.home-route .con .container .details .score h5{
+    font-size: 40px;
+    color: brown;
+}
+.home-route .con .container .details .score h6{
+    font-size: 25px;
+    color: rgb(255, 196, 2);
+}
+.home-route .main{
+    width:100%;
+    display: flex;
+    justify-content: space-between;    
+}
+.home-route .container .main .opt-left{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.home-route .container .main .opt-left button{
+    color: rgb(212, 174, 104);
+    padding: 10px;
+    border: 4px solid rgb(136, 136, 235);
+    border-radius: 20px;
+    background-color: rgb(88, 67, 107);
+    cursor: pointer;
+}
+.home-route .container .main .opt-left button:hover{
+    
+    border: 4px solid blue;
+    background-color: blueviolet;
+}
+.home-route .container .main .opt-right{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+
+}
+.home-route .container .main .result{
+    flex-basis: 50%;
+}
+.home-route .container .main .opt-right button{
+    color: rgb(212, 174, 104);
+    padding: 10px;
+    border: 4px solid rgb(136, 136, 235);
+    border-radius: 20px;
+    background-color: rgb(88, 67, 107);
+    cursor: pointer;
+}
+.home-route .container .main .opt-right button:hover{
+    
+    border: 4px solid blue;
+    background-color: blueviolet;
+}
+.home-route .container .main h2{
+    text-align: center;
+    font-size: 45px;
+    color: rgb(54, 54, 241);
+    text-shadow: 0 0 2px black;
+} 
+.home-route .container .main .player-choice div{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height:200px;
+}
+.home-route .container .main .player-choice div div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home-route .container .main .player-choice div div h4{
+    font-size: 30px;
+}
+.home-route .container .main .player-choice div div h3{
+    font-size: 35px;
+    color: yellowgreen;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.home-route .container .main .player-choice button{
+    width: 60%;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 35px;
+    background-color: rgb(16, 94, 16);
+    color: white;
+    font-weight: 600;
+    box-shadow: 0px 0px 3px black;
+    font-size: 22px;
+}
